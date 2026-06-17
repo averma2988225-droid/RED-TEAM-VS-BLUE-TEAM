@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.production
+.env*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+backend/prisma/migrations/
+
+# Temp scan files
+backend/tmp/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.idea/
